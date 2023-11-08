@@ -1,0 +1,85 @@
+html{
+    font-size: 62.5%;
+     background: url(../asset/index.jpeg.jpg) no-repeat center center fixed; 
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+      background-size: cover;
+      
+}  
+
+/* tout ceci est pour mettre l'image sur tout le backgroud, parce que sinon c'est trop gran et elle est zoomée */
+body {
+    font: 1.6rem sans-serif;
+    margin:0;
+    letter-spacing: 0.1rem;
+    line-height: 1.6;
+}
+h1,h2,h3,h4,h5,h6,
+p,ul,ol,figure{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+*{
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: rgb(red, green, blue);
+}
+button{
+    background-color:red;
+    border:0;
+    padding: 0;
+    font-size: inherit;
+}
+
+.keys {
+    display:flex;
+    border-width: 2rem;
+    padding: auto;
+    margin-top: 15%;
+    margin-left: 15%;
+}
+.sound {
+    color: rgb(174, 10, 10);
+}
+
+.key{
+   border: 4.5px solid black;
+   border-radius: 5px;
+   margin: 1.7rem;
+   font-size: 1.8rem;
+   padding: 1rem .5rem;
+   transition: all 0.7s;
+   max-width: 100px;
+   text-align: center;
+   color: white;
+   background: rgba(0, 0, 0,0.4);
+   text-shadow: 0 0 5px black;
+    
+}
+
+kbd{
+    display: block;
+    font-size: 80px;
+
+}
+
+.playing {
+    transform: scale(1.1);
+    border-color: rgb(99, 31, 31);
+    box-shadow: 0 0 10px  rgb(99, 31, 31) ;
+}
+
+    
+footer {
+color: white;
+text-align: center;
+position: fixed;
+bottom: 0;
+width: 100%;
+}
+    
+
